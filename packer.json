@@ -19,12 +19,12 @@
     },
     {
       "type": "file",
-      "source": ".",
+      "source": "/root/Project/packerterrafromdemo/",
       "destination": "/home/ubuntu/node-app/"
     },
     {
       "type": "ansible-local",
-      "playbook_file": "packer/ansible-playbook.yml"
+      "playbook_file": "ansible-playbook.yml"
     }
   ],
 
